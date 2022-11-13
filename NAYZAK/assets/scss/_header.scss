@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #fafafb;
+    padding: 27px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &_logo img  {
+        width: 156px;
+        height: 30px;
+    }
+    &_link {
+        ul {
+            display: flex;
+            gap: 48px;
+            font: 700 16px 'Syne';
+            line-height: 20px;
+            li {
+                display: flex;
+                align-items: center;
+                a {
+                    color: #212121;
+                    margin-right: 2px;
+                }
+            }
+        }
+    }
+    &_action {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+}

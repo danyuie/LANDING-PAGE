@@ -1,0 +1,25 @@
+.container {
+    padding: 0 316px ;
+}
+.btn {
+    font: 700 16px "Syne";
+    line-height: 20px;
+    &-pri {
+        padding: 13px 24px;
+        border-radius: 100rem;
+        background-color: #000;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        img {
+            width: 24px;
+        }
+    }
+    &-sec {
+        color: #000;
+    }
+    &-white {
+        color: #000;
+        background-color: #fff;
+    }
+}

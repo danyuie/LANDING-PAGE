@@ -1,0 +1,7 @@
+@import "var";
+@import "reset";
+@import "global";
+@import "header";
+@import "hero";
+@import "service";
+// sass --watch app.scss:../css/app.min.css --style compressed

@@ -1,0 +1,22 @@
+.hero {
+    background-color: #fafafb;
+    font-family: "Syne";
+    font-weight: 700;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    &_sub-title {
+        font-size: 26px;
+        margin-bottom: 10px;
+        line-height: 40px;
+    }
+    &_title {
+        font-size: 80px;
+        line-height: 94px;
+        margin-bottom: 40px;
+    }
+    &_img {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+}
