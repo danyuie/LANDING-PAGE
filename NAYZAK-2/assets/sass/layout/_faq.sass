@@ -1,0 +1,40 @@
+.faq
+  background-color: $white
+  margin-top: 105px !important
+  margin-bottom: 105px !important
+  display: flex
+  border-radius: 24px
+  overflow: hidden
+  &_image
+    padding: 81px 153px 54px
+    background-color: $yellow_500
+  &_content
+    padding: 110px 64px
+    &-heading 
+      font: 700 40px/52px "Syne"
+      letter-spacing: -0.4px
+      color: $black_800
+      padding-bottom: 32px
+    &-item
+      cursor: pointer
+      color: $text_blue
+      overflow: hidden
+      transition: all .2s ease-in-out
+      margin-top: 32px
+      height: 51px
+      .heading
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding-bottom: 16px
+        border-bottom: 1px solid $black_400
+        margin-bottom: 16px
+        span
+          font: 600 22px/34px "Inter"
+        ion-icon
+          font-size: 24px
+      .content
+        font: 400 16px/26px "Inter"
+        color: $text_blue
+      .hide
+        display: none

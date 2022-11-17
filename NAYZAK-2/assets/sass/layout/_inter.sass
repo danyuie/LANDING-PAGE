@@ -1,0 +1,33 @@
+.inter 
+  display: flex
+  padding-top: 104px 
+  padding-bottom: 104px 
+  &_content
+    color: $black_800
+    &-tag
+      font: 700 20px/28px "Syne"
+      margin-bottom: 8px
+    &-heading
+      font: 700 40px/52px "Syne"
+      margin-bottom: 40px
+    &-box 
+      display: grid
+      grid-template-columns: repeat(2, 1fr)
+      gap: 64px 32px
+    &-item
+      .heading
+        display: flex
+        justify-items: center
+        gap: 12px
+        margin-bottom: 16px
+        .icon
+          border-radius: 100rem
+          background-color: $white
+          display: flex
+          justify-content: center
+          align-items: center
+        span 
+          font: 700 18px/21.6px "Syne"
+      .disc
+        font: 400 16px/26px "Inter"
+        color: $text_blue
