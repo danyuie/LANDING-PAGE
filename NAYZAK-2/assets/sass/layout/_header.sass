@@ -1,0 +1,41 @@
+.navbar
+  display: flex
+  justify-content: space-between
+  align-items: center
+  height: 90px
+  &_logo
+    width: 156px
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
+  &_link
+    ul 
+      display: flex
+      align-items: center
+      gap: 48px
+    &-item 
+      color: $black_800
+      display: flex
+      align-items: center
+      gap: 2px
+      span
+        font-weight: 700
+        font-size: 16px
+        line-height: 20px
+  &_action
+    &-doc
+      font-weight: 700
+      font-size: 16px
+      line-height: 20px
+      color: $black_800
+      margin-right: 20px
+    .btn-header
+      padding: 13px 24px
+      font-weight: 700
+      font-size: 16px
+      line-height: 20px
+      color: $black_800
+      background-color: transparent
+      border-radius: 8px
+      border: 2px solid $black_800
